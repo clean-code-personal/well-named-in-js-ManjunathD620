@@ -2,6 +2,7 @@
 let ColorPair = require('./pair');
 let getColorFromPairNumber = require('./NumberToColor');
 let getPairNumberFromColor = require('./ColorToNumber');
+let Manual = require('./PrintManual');
 
 function test(){
     pairNumber = 4;
@@ -37,3 +38,4 @@ function test(){
     console.assert(pairNumber==6);
 }
 test();
+Manual();
